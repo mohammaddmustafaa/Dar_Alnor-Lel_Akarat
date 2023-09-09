@@ -1,12 +1,10 @@
-const heroList = ["1", "2", 3, 4];
-
-const listElement = () =>
-  heroList.map((element, index) => <li key={index}>{element}</li>);
-
+import HeroList from "./pages/home/home";
+import Account from "./pages/accountButtons";
 function App() {
   return (
     <>
-      <ul className="heroListContainer">{listElement()}</ul>
+      <HeroList />
+      <Account />
     </>
   );
 }
