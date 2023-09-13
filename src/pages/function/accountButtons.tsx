@@ -9,20 +9,22 @@ const buttons = () =>
 
 const countryFlag = () => {
   return (
-    <img
-      className="country-flag-img"
-      src="./src/assets/ico/tunes-flag.png"
-      alt="img"
-    />
+    <div className="country-flag-countainer">
+      <img
+        className="country-flag-img"
+        src="./src/assets/ico/tunes-flag.png"
+        alt="img"
+      />
+    </div>
   );
 };
 
 function Account() {
   return (
-    <>
+    <div className="account-btn-container">
       {buttons()}
       {countryFlag()}
-    </>
+    </div>
   );
 }
 

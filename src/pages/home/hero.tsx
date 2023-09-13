@@ -1,5 +1,5 @@
 const heroList = ["Home", "Service", "Property", "About", "Contact"];
-const keyboardIpad = ['Test', 'NewKybboard', 'Github-DeskSpace', 'and', 'Code'];
+
 const listElement = () =>
   heroList.map((element) => (
     <li className="hero-list-element" key={element}>
@@ -10,10 +10,7 @@ const listElement = () =>
 function HeroList() {
   return (
     <>
-      <ul className="heroListContainer">
-        {listElement()}
-        {keyboardIpad}
-        </ul>
+      <ul className="heroListContainer">{listElement()}</ul>
     </>
   );
 }

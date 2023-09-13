@@ -1,0 +1,25 @@
+.hero-container {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: end;
+}
+
+.heroListContainer {
+    padding: 0%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:space-between;
+    width: 25rem;
+    height: 3rem;
+    /* margin-right: 25rem; */
+}
+
+.hero-list-element {
+    width: 5rem;
+    padding: 5px;
+    background-color:blanchedalmond;
+    align-items: last baseline;
+    display: flex;
+    justify-content: center;
+    
+}
