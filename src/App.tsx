@@ -1,10 +1,9 @@
-import HeroList from "./pages/home/hero";
-import Account from "./pages/function/accountButtons";
+import Hero from "./pages/home/hero";
+
 function App() {
   return (
     <div className="hero-container">
-      <HeroList />
-      <Account />
+      <Hero />
     </div>
   );
 }
