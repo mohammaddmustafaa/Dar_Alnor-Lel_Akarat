@@ -10,7 +10,7 @@ const listElement = () =>
 
 const buttons = () =>
   accountButton.map((element) => (
-    <button key={element} className="sign-button">
+    <button key={element} type="button" className="sign-button btn btn-warning">
       {element}
     </button>
   ));
