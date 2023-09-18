@@ -1,0 +1,25 @@
+.login-div-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+};
+
+.login-input {
+    height: 2.4rem;
+    background-color: aqua;
+};
+
+
+.login-title {
+    font-size: 1.2rem;
+    background-color: green;
+
+};

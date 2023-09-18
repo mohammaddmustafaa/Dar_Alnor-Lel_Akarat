@@ -29,13 +29,13 @@ const countryFlag = () => {
 
 function Hero() {
   return (
-    <>
+    <div className="hero-container">
       <ul className="heroListContainer">{listElement()}</ul>
       <div className="account-btn-container">
         {buttons()}
         {countryFlag()}
       </div>
-    </>
+    </div>
   );
 }
 
