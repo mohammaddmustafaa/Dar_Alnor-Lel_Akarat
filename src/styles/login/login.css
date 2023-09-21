@@ -1,25 +1,89 @@
+body {
+    background-image:url(/src/assets/Login-Background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center -150px;
+}
+
 .login-div-container {
-    width: 100%;
     display: flex;
+    height:53.7rem;
     flex-direction: column;
+    justify-content: center;
     align-items: center;    
-    
+
+/* ! need to get fixed UIUX maybe */
+    background-image:url(/src/assets/Sans-titre.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px 400px;
+    background-attachment:fixed; 
+/* ? ????????????????????????? */
+
 }
 
 .login-container {
     display: flex;
     flex-direction: column;
     width: 30rem;
-};
+    height: 31rem;
+    justify-content: space-between;
+}
+
+.login-label {
+    display: flex;
+    align-items: end;
+    padding-left: 5px;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height:25px;
+}
+
 
 .login-input {
-    height: 2.4rem;
-    background-color: aqua;
-};
+    width: 30rem;
+    height: 50px;
+    border-radius: 6px;
+    padding-left: 25px;
+    border: black 1px solid;
+    background-color: transparent;
+}
 
+.account-login-btns {
+    border: black 2px solid;
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 6px;
 
-.login-title {
-    font-size: 1.2rem;
-    background-color: green;
+}
 
-};
+.account-login-btns:nth-child(4){
+    color: #fff;
+    background-color:#062F6D;
+}
+
+.account-login-btns:last-child{
+    background-color: transparent;
+    background-image: url(/src/assets/ico/GoogleLogin.svg);
+    background-repeat: no-repeat;
+    background-position: center left 70px ;
+    background-size: 55px;
+}
+
+/*? the bottom right icon if we need to use a img inside div (login.tsx) */
+/* ??????????????????????????????????????? */
+/* 
+.cmpny-icon-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;    
+}
+
+.cmpny-icon {
+    width: 23rem;
+    height: 20rem;
+} */
+/* ??????????????????????????????????????? */
